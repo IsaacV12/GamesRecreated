@@ -1,0 +1,93 @@
+div.rect {
+    height: 10vh;
+    background-color: #ffcc99;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10vh;
+    font-size: 40px;
+    font-size: 4vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+div.rect2 {
+    height: 2vh;
+    background-color: #ffe8d2;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #ffe8d2;
+}
+a {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+div.score {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	width: 65vw;
+	height: 8vh;
+}
+
+.score-cell {
+	height: 8vh;
+    width: 30vw;
+    border: 1px solid black;
+    background-color: #ffcc99;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 8vh;
+    font-size: 40px;
+    font-size: 4vw;
+}
+
+.scorebuffer {
+    height: 8vh;
+    width: 5vw;
+}
+
+div.game {
+    height: 50vw;
+    width: 80vw;
+    border: 1px solid black;
+    background-color: #9b9b9b;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 8vh;
+    font-size: 40px;
+    font-size: 4vw;
+}
+
+div.paddle1 {
+    height: 10vw;
+    width: 2vw;
+    border: 1px solid black;
+    background-color: #ffffff;
+    position: relative;
+    left: 4vw;
+}
+
+div.paddle2 {
+    height: 10vw;
+    width: 2vw;
+    border: 1px solid black;
+    background-color: #ffffff;
+    position: relative;
+    left: 74vw;
+    top: -10vw;
+}
+
+div.ball {
+    height: 3vw;
+    width: 3vw;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: 3.5vw;
+    left: 38.5vw
+}
